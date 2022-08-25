@@ -1,0 +1,5 @@
+# Build directory
+build
+
+# Ignore VS Code logs
+.vscode/*.log

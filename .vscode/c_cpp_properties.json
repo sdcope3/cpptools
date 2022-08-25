@@ -1,0 +1,67 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/Boost/1.8.0/include",
+                "/opt/OpenCV/4.6.0/include/opencv4",
+                "/opt/Qt/6.2.4/gcc_64/include",
+                "/opt/Qt/6.2.4/gcc_64/include/QtCore",
+                "/opt/Qt/6.2.4/gcc_64/include/QtGui",
+                "/opt/Qt/6.2.4/gcc_64/include/QtQml",
+                "/opt/Qt/6.2.4/gcc_64/include/QtQuick"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/Boost/1.8.0/include",
+                "/opt/OpenCV/4.6.0/include/opencv4",
+                "/opt/Qt/6.2.4/macos/include.vscode",
+                "/opt/Qt/6.2.4/macos/lib/QtCore.framework/Headers",
+                "/opt/Qt/6.2.4/macos/lib/QtGui.framework/Headers",
+                "/opt/Qt/6.2.4/macos/lib/QtQml.framework/Headers",
+                "/opt/Qt/6.2.4/macos/lib/QtQuick.framework/Headers"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-x64"
+        },
+        {
+            "name": "Windows",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/Boost/1.8.0/include",
+                "/opt/OpenCV/4.6.0/include/opencv4",
+                "/opt/Qt/6.2.4/msvc2019_64/include",
+                "/opt/Qt/6.2.4/msvc2019_64/include/QtCore",
+                "/opt/Qt/6.2.4/msvc2019_64/include/QtGui",
+                "/opt/Qt/6.2.4/msvc2019_64/include/QtQml",
+                "/opt/Qt/6.2.4/msvc2019_64/include/QtQuick"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}
