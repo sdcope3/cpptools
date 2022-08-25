@@ -3,6 +3,7 @@
 #pragma once
 
 #include <any>
+#include <stdexcept>
 #include <vector>
 
 namespace sdc {
