@@ -43,14 +43,14 @@ class cAction {
   bool isNull() const { return m_type < 0; }
 
   // Return the payload at the given index cast to the appropriate type. Return
-  // a default constructed value of the appropriate type if an error occurrs.
+  // a default constructed value of the appropriate type if an error occurs.
   template <typename T>
   const T& payload(int i = 0) const {
     return m_payload.get<T>(i);
   }
 
   // Return the payload at the given index cast to the appropriate type. Return
-  // the specified default value if an error occurrs.
+  // the specified default value if an error occurs.
   template <typename T>
   const T& payload(int i, const T& defaultValue) const {
     return m_payload.get<T>(i, defaultValue);
